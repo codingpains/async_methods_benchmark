@@ -9,7 +9,7 @@
 
 ### Performance after 1000 runs.
     |Library name|Average time (ms)|Total time (ms)|
-    |:-----------|----------------:|--------------:|
+    |:-----------|:---------------:|:-------------:|
     |Bluebird|5.2|5172|
     |Callbacks (plain js)|5.6|5608|
     |async|6|6002|
