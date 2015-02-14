@@ -12,6 +12,6 @@
 |Library name|Average time (ms)|Total time (ms)|
 |:-----------|---------------:|--------------:|
 |Bluebird|5.2|5172|
-|Callbacks (plain js)|5.6|5608|
+|Callbacks (plain js)|4.5|4517|
 |async|6|6002|
 |fluorine|8.5|8455|
