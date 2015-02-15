@@ -41,7 +41,7 @@ function start(done) {
         console.log("Executed in " + time + " ms");
 
         if (runs++ < 1000) {
-            return start();
+            return flow.runNode(flow.children[0]);
         }
         console.log("All runs completed in " + (totalTime/runs) + ' ms average');
         console.log("Total time: " + totalTime + ' ms');
