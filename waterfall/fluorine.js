@@ -1,3 +1,5 @@
+require('neon');
+require('neon/stdlib');
 require('fluorine');
 
 var fs        = require('fs');
